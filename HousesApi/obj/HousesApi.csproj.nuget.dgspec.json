@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Repos\\LearnReact\\LearnReact\\HousesApi\\HousesApi.csproj": {}
+    "C:\\Repos\\HouseListings\\HousesApi\\HousesApi.csproj": {}
   },
   "projects": {
-    "C:\\Repos\\LearnReact\\LearnReact\\HousesApi\\HousesApi.csproj": {
+    "C:\\Repos\\HouseListings\\HousesApi\\HousesApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Repos\\LearnReact\\LearnReact\\HousesApi\\HousesApi.csproj",
+        "projectUniqueName": "C:\\Repos\\HouseListings\\HousesApi\\HousesApi.csproj",
         "projectName": "HousesApi",
-        "projectPath": "C:\\Repos\\LearnReact\\LearnReact\\HousesApi\\HousesApi.csproj",
+        "projectPath": "C:\\Repos\\HouseListings\\HousesApi\\HousesApi.csproj",
         "packagesPath": "C:\\Users\\anths\\.nuget\\packages\\",
-        "outputPath": "C:\\Repos\\LearnReact\\LearnReact\\HousesApi\\obj\\",
+        "outputPath": "C:\\Repos\\HouseListings\\HousesApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\anths\\AppData\\Roaming\\NuGet\\NuGet.Config"
