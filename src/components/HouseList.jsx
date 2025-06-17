@@ -1,8 +1,8 @@
-import HouseRow from "./HouseRow";
-import useHouses from "../hooks/useHouses";
-import loadingStatus from "../helpers/loadingStatus";
-import LoadingIndicator from "./LoadingIndicator";
-import ErrorBoundary from "./ErrorBoundary";
+import HouseRow from "./HouseRow.jsx";
+import useHouses from "../hooks/useHouses.js";
+import loadingStatus from "../helpers/loadingStatus.js";
+import LoadingIndicator from "./LoadingIndicator.jsx";
+import ErrorBoundary from "./ErrorBoundary.jsx";
 
 const HouseList = () => {
     const {houses, setHouses, loadingState} = useHouses();

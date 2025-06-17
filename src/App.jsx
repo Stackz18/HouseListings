@@ -1,10 +1,10 @@
-import Banner from "./components/Banner"
-import "./App.css"
-import ErrorBoundary from "./components/ErrorBoundary"
 import { useCallback, useState } from "react"
-import navValues from "./navigation/navValues"
-import navigationContext from "./navigation/navigationContext"
-import ComponentPicker from "./components/ComponentPicker"
+import Banner from "./components/Banner.jsx"
+import "./App.css"
+import ErrorBoundary from "./components/ErrorBoundary.jsx"
+import navValues from "./navigation/navValues.js"
+import navigationContext from "./navigation/navigationContext.js"
+import ComponentPicker from "./components/ComponentPicker.jsx"
 
 function App() {
   const navigate = useCallback(

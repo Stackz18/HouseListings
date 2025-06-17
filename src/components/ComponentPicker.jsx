@@ -1,6 +1,6 @@
-import navValues from "../navigation/navValues";
-import House from "./house";
-import HouseList from "./HouseList";
+import navValues from "../navigation/navValues.js";
+import House from "./House.jsx";
+import HouseList from "./HouseList.jsx";
 
 const ComponentPicker = ({ currentNavLocation }) => {
   switch (currentNavLocation) {
