@@ -2,9 +2,9 @@
 import React from "react";
 import currencyFormatter from "../helpers/currencyFormatter.js";
 
-const HouseRow = ({ house }) => {
+const HouseRow = ({ house, selectHouse }) => {
     return (
-        <tr>
+        <tr onClick={() => selectHouse(house)}>
             <td>{house.address}</td>
             <td>{house.country}</td>
             {house.price &&
@@ -14,7 +14,4 @@ const HouseRow = ({ house }) => {
     );
 }
 
-const HouseRowMem = React.memo(HouseRow);
-
 export default HouseRow;
-export { HouseRowMem };
