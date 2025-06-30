@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import loadingStatus from "../helpers/loadingStatus";
+import loadingStatus from "../helpers/loadingStatus.js";
 
 const useHouses = () => {
     const [houses, setHouses] = useState([]);
